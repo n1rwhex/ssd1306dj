@@ -1,0 +1,21 @@
+author: Dirk Jahnke
+type: lib
+description: Arduino Adafruit SSD1306 library modified for Wemos OLED 64x48
+version: 1.0
+platforms: [ esp32, esp8266 ]
+
+sources:
+  - src
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-wire
+  - origin: https://github.com/mongoose-os-libs/arduino-spi
+  - origin: https://github.com/mongoose-os-libs/arduino-adafruit-gfx
+
+tags:
+  - arduino
+  - c
+  - js
+  - hw
+
+manifest_version: 2017-09-29
